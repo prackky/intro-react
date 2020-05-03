@@ -73,8 +73,8 @@ class App extends React.Component {
       tabChoice = (
         <List
           placeholder="Add Student..." 
-          currList={this.state.assignments}
-          addFunction={this.addAssignment}
+          currList={this.state.students}
+          addFunction={this.addStudent}
           title="Student Roster"
         />
       );
